@@ -1,0 +1,9 @@
+{
+  "presets": ["latest"],
+  "plugins": [
+   ["babel-root-import", {
+     "rootPathPrefix": "",
+     "rootPathSuffix": "src/"
+   }]
+ ]
+}

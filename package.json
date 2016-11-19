@@ -1,0 +1,23 @@
+{
+  "name": "real-world-js",
+  "version": "1.0.0",
+  "description": "Seed project for Real World JS by Dev Mastery.",
+  "main": "src/index.js",
+  "repository": "http://github.com/dev-mastery/rwjs-starter.git",
+  "author": "Bill Sourour <bill@devmastery.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel src --out-dir dist && jasmine",
+    "hello": "babel-node src",
+    "repl": "babel-node",
+    "clean": "rm -r dist && rm src/hello.js && rm src/hello.spec.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-latest": "^6.16.0",
+    "babel-root-import": "^4.1.5",
+    "jasmine": "^2.5.2"
+  }
+}
