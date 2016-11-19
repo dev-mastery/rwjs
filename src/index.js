@@ -1,3 +1,2 @@
 import hello from '~/hello';
-
-hello('Real World JS');
+export default hello;

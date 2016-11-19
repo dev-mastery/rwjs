@@ -1,4 +1,4 @@
-import hello from '~/hello';
+import hello from '~/';
 
 describe('hello', () => {
   const nameToGreet = 'Real World JS!'
