@@ -10,7 +10,7 @@
     "test": "babel src --out-dir dist && jasmine",
     "hello": "babel-node src",
     "repl": "babel-node",
-    "clean": "rm -r dist && rm src/hello.js && rm src/hello.spec.js"
+    "clean": "rm -r dist && rm src/*"
   },
   "dependencies": {},
   "devDependencies": {
